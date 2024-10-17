@@ -775,3 +775,35 @@ video {
     margin-right: 600px;
   }
 }
+
+input{
+  border-radius: 8px;
+}
+tr{
+  text-align: left;
+}
+body{
+  margin: 5px;
+  margin-left: 100px;
+  text-align: center;
+}
+.ijo{
+  background-color: lightgreen;
+}
+.merah{
+  background-color:lightcoral;
+}
+table{
+  width : 350px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+button{
+  border-radius: 10%;
+  padding: 1px;
+  width: 64px;
+}
+.bg-gray-200	{background-color: rgb(229 231 235); padding: 4px;}
+.mt-8{margin-top: 8px;}
+.mb-15{margin-bottom: 15px;}

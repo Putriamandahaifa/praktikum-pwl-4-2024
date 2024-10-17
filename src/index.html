@@ -4,20 +4,39 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Latihan Tailwind CSS</title>
-   <!-- <link rel="stylesheet" href="./output.css"> -->
+   <link rel="stylesheet" href="./output.css">
 </head>
-<body class="...">
-   <section id="title" class="...">
-      <h1 class="...">Todo List Application</h1>
+<body class="">
+   <form action="">
+      <section id="title" class="">
+      <h1 class=" text-2xl mb-15 mt-8">Todo List Application</h1>
    </section>
-   <section id="input" class="...">
+   <section id="input" class="">
       <input type="text" name="assignment" id="assignment" 
-             class="..."
-             placeholder="Inputkan tugas yang akan dikerjakan ...">
+            class=" w-80 border border-2 rounded-lg bg-gray-200 p-4"
+            placeholder="Inputkan tugas yang akan dikerjakan ...">
       <input type="button" id="btn-tambah" value="TAMBAH"
-             class="...">
+             class="font-bold border border-2 w-24 rounded-lg bg-gray-200 p-4">
    </section>
    <section id="output" class=""></section>
+   <table class="" >
+      <tr class="text-left">
+         <td><p>Nulis Senin</p></td>
+         <td><button class="ijo font-bold w-16">SELESAI</button></td>
+         <td><button class="merah font-bold w-16">HAPUS</button></td>
+      </tr>
+      <tr>
+         <td><p>Baca Selasa</p></td>
+         <td><button class="ijo font-bold w-16">SELESAI</button></td>
+         <td><button class="merah font-bold w-16">HAPUS</button></td>
+      </tr>
+      <tr>
+         <td><p>Rebahan Ahad</p></td>
+         <td><button class="ijo font-bold w-16">SELESAI</button></td>
+         <td><button class="merah font-bold w-16">HAPUS</button></td>
+      </tr>
+   </table>
+   </form>
    <script src="main.js"></script>
 </body>
 </html>
